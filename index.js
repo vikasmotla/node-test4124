@@ -7,6 +7,7 @@ const port = process.env.PORT || 3000;
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get('/', (req, res) => {
+    console.log('test barnch')
     res.status(200).json({Name:'vikas Motla'});
 });
 
